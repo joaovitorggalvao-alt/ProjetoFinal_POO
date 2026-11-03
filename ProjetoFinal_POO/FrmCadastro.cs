@@ -15,6 +15,7 @@ namespace ProjetoFinal_POO
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             string cpfBusca = txtCpf.Text.Trim();
@@ -126,6 +127,16 @@ namespace ProjetoFinal_POO
             txtNome.Clear();
             txtTelefone.Clear();
             txtNome.Focus();
+=======
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+>>>>>>> a67aa7d4ecfe64bd0c87d9df05964658eddfd6e7
         }
     }
 }
